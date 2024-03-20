@@ -1,10 +1,10 @@
 """agents.py"""
 
 from typing import Any
-from state import State
+from core.state import State
 from langchain_community.document_loaders.web_base import WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from tasks import AI_Engineer_expert_task
+from core.tasks import AI_Engineer_expert_task
 from langchain_core.output_parsers.string import StrOutputParser
 
 
