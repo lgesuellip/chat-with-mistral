@@ -1,9 +1,12 @@
 [tool.poetry]
 name = "chat-with-mistral"
-version = "0.1.2"
+version = "0.1.3"
 description = "Chat with Mistral Articles"
 authors = ["Lautaro GP"]
 readme = "README.md"
+packages = [
+    { include = "core" },
+]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
