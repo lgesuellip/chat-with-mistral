@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "chat-with-mistral"
+version = "0.1.2"
+description = "Chat with Mistral Articles"
+authors = ["Lautaro GP"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+langchain = "^0.1.12"
+langchain-core = "^0.1.33-rc.1"
+langchain_community = "^0.0.28"
+langchain_openai = "^0.0.8"
+langchain_google_genai = "^0.0.11"
+langgraph = "^0.0.28"
+cohere = "^4.0.0"
+bs4="*"
+sentence_transformers = "^2.5.1"
+ragatouille = "^0"
+faiss-cpu = "^1.8.0"
+deepeval = "^0.20.85"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
